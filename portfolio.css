@@ -1,0 +1,130 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.couleur-blanc{
+    background-color: white;
+}
+.apropos{
+    background-color: aliceblue;
+}
+.logo img{
+    display: block;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 110px;
+    height: 110px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    margin-top: 3%;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+li a{
+    text-decoration:none ;
+    font-size: 20px;
+    color: aliceblue;
+    background-color:  rgb(50, 50, 52);
+    padding: 4px;
+    border-radius:4px ; /* arrondir les bords*/
+
+}
+li a:hover{
+    background-color:  aliceblue ;
+    color: rgb(50, 50, 52) ;
+}
+.container img{
+    height: 250px;
+    width: 250px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.container p{
+    font-size: 20px;
+}
+section{
+    text-align: center;
+}
+.item{
+    display:flex;
+    margin-bottom: 10px;
+}
+.max{
+    width:200px ;
+    background-color: grey;
+    height: 20px;
+    border-radius: 10px;
+}
+.valeur{
+    width: 95%;
+    height: 20px;
+    background-color: rgb(228, 33, 209);
+    border-radius: 10px;
+}
+.valeur1{
+    width: 60%;
+    height: 20px;
+    background-color:  rgb(28, 88, 230) ;
+    border-radius: 10px;
+}
+.valeur2{
+    width: 70%;
+    height: 20px;
+    background-color:  rgb(232, 94, 35);
+    border-radius: 10px;
+}
+.face img{
+    height:50px ;
+    width: 50px;
+}
+.what img{
+    width: 50px;
+    height: 50px;
+}
+.insta img{  
+    width: 50px;
+    height: 50px;
+}
+.ensemble{
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.mes-reseaux{
+    text-align: center;
+}
+.formulaire{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color:rgb(228, 33, 209) ;
+   
+}
+
